@@ -1,0 +1,26 @@
+# 🛸 TEKNOFEST 2026 - İnsansız Su Altı Sistemleri Yer İstasyonu
+
+Bu proje, **TEKNOFEST 2026** kapsamında geliştirilen insansız su altı aracı (ROV) için tasarlanmış gerçek zamanlı bir kontrol ve izleme arayüzüdür.
+
+---
+
+## 📸 Ekran Görüntüsü
+![Su Altı Arayüzü Önizleme](assets/arayuz.png)
+## ✨ Temel Özellikler
+* **Gerçek Zamanlı Telemetri:** Araçtan gelen derinlik, sıcaklık ve batarya seviyesi gibi verilerin anlık takibi.
+* **Video Akışı:** Su altı kamerasından gelen görüntünün OpenCV ile işlenerek arayüze aktarılması.
+* **Kontrol Paneli:** Aracın hareketlerini (ileri, geri, dalış) yönetmek için joystick veya klavye entegrasyonu.
+* **Veri Kaydı:** Görev sırasında gelen verilerin daha sonra analiz edilmek üzere `.csv` formatında kaydedilmesi.
+
+## 🛠️ Kullanılan Teknolojiler
+* **Dil:** Python
+* **Arayüz Kütüphanesi:** PyQt5 / Tkinter (Hangisini kullandıysan onu yaz)
+* **Görüntü İşleme:** OpenCV
+* **Haberleşme:** MAVLink / UDP / Serial Port
+
+## 🚀 Kurulum ve Çalıştırma
+Projeyi kendi bilgisayarınızda çalıştırmak için:
+
+1. Depoyu klonlayın:
+   ```bash
+   git clone [https://github.com/senaao/Underwater-Ground-Station.git](https://github.com/senaao/Underwater-Ground-Station.git)
